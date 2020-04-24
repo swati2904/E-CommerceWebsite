@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin :0;
+}
+*{
+    box-sizing: border-box;
+}
+  
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #ededed;
+}
+
+.content{
+    width:100%;
+    height: 75vh;
+}
+.content .banner-image{
+    background: url("../../assets/intro-bg_1.jpg") no-repeat center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .content .banner-image .inner-banner-image{
+      padding-top: 12%;
+      width: 80%;
+      height: 50%;
+  }
+
+.banner_content{
+    background-color: rgba(0,0,0,0.7);
+    width: 660px;
+    height: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* ===================content part============= */
+.content_items .items-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 10px 10px 10px;
+    flex-wrap: wrap;
+}  
+  .content_items .items-wrap .item{
+      height: 270px;
+      width: 280px;
+      border: 1px solid #ddd;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  .content_items .items-wrap .item .thumbnail{
+      height: 60%;
+  }
+  .content_items .items-wrap .item .thumbnail img{
+      width: 100%;
+      height: 100%;
+      
+  }
+  .content_items .items-wrap .item .caption{
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+  .content_items .items-wrap .item .caption div:first-child{
+      font-size: 20px;
+      font-weight: 700;
+  }
+  .content_items .items-wrap .item .caption div:last-child{
+      font-size: 14px;
+  }
+
+/* ==================footer=================== */
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #000;
+    color:#fff;
+    font-size: 14px;
+    height: 50px;
+}
