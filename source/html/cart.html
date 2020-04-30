@@ -7,13 +7,14 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="../css/cart.css" rel="stylesheet" type="text/css" />
+
 
 </head>
 
@@ -29,12 +30,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#" class="navbar-brand">Lifestyle Store</a>
+          <a class="navbar-brand" href="../../index.html">Lifestyle Store</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="signup.html"><span class="glyphicon glyphicon-user "></span>Sign Up </a></li>
-            <li><a href="Login.html"><span class="glyphicon glyphicon-log-in "></span>Login </a></li>
+            <li><a href="../html/cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart </a></li>
+            <li><a href="../html/setting.html"><span class="glyphicon glyphicon-user"></span> Settings</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
           </ul>
         </div>
       </div>
@@ -42,42 +44,28 @@
 
 
     <!---============ cart page ====================-->
-
-    <!-- <div class="cart-info">
-          <div class="table-responsive"> -->
-   <div class="cart-page">
-     <div style="width: 60%; margin: 10px auto;">
-      <div class="row">
-        <!-- <div class="col-sm-4 col-offset-3"> -->
-          <table class="table table-bordered table-hover">
-            <thead>
-              <tr>
-                <td>Item Number </td>
-                <td>Item Name </td>
-                <td>Price</td>
-                <td></td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Total</td>
-                <td>Rs 0/-</td>
-                <td><a href="../html/success.html"><button type="submit" class="btn btn-primary ">Confirm
-                      Order</button></a></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      <!-- </div> -->
-     </div>
-   </div>
+    <div class="row decor_bg">
+      <div class="col-md-6 col-md-offset-3">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Item Number</th>
+              <th>Item Name</th>
+              <th>Price</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td>Total</td>
+              <td>Rs </td>
+              <td><a href='../html/success.html' class='btn btn-primary'>Confirm Order</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
 
     <!-- ==============================footer page ========================================== -->

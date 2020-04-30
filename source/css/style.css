@@ -77,14 +77,65 @@ a{
 .content_items .items-wrap .item .caption div:last-child{
       font-size: 14px;
 }
+/* ==============product page===================== */
+.row{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+/* ============sign up ===================== */
+.signup-form{
+    font-size: 32px;
+    font-weight: bold;
+    color:rgb(0, 0, 255);
+  }
 
-/* ==================footer=================== */
-.footer2{
+  /* ============login page================ */
+  .login-page{
+    height: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    }
+    .text-warning{
+      margin-left: 15px;
+    }
+    .panel-footer{
+      margin-top: 50px;
+    }
+
+    /* ==========setting page===================== */
+    .setting-page{
+        height: 500px;
+      display: flex;
+      align-items: center;
+      }
+      .change-password{
+        font-size: 32px;
+        font-weight: bold;
+        color:rgb(10, 10, 10);
+      }
+
+/* ==================footer=================== */
+.footer_down{
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        background-color: #000;
+        color:#fff;
+        font-size: 14px;
+        height: 50px;
+    }
+
+.footer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #000;
-    color:#fff;
+    color: #fff;
     font-size: 14px;
     height: 50px;
-}
+    width: 100%;
+    position: absolute; 
+    bottom: 0;
+  }
